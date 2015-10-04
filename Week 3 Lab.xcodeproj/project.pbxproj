@@ -13,6 +13,7 @@
 		007728D91BBDD79300F26014 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007728D81BBDD79300F26014 /* Images.xcassets */; };
 		007728DC1BBDD79300F26014 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007728DA1BBDD79300F26014 /* LaunchScreen.xib */; };
 		007728E81BBDD79300F26014 /* Week_3_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007728E71BBDD79300F26014 /* Week_3_LabTests.swift */; };
+		007728F21BBDD7D700F26014 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007728F11BBDD7D700F26014 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		007728E11BBDD79300F26014 /* Week 3 LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 3 LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		007728E61BBDD79300F26014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		007728E71BBDD79300F26014 /* Week_3_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week_3_LabTests.swift; sourceTree = "<group>"; };
+		007728F11BBDD7D700F26014 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				007728D11BBDD79300F26014 /* AppDelegate.swift */,
 				007728D31BBDD79300F26014 /* ViewController.swift */,
 				007728D51BBDD79300F26014 /* Main.storyboard */,
+				007728F11BBDD7D700F26014 /* CanvasViewController.swift */,
 				007728D81BBDD79300F26014 /* Images.xcassets */,
 				007728DA1BBDD79300F26014 /* LaunchScreen.xib */,
 				007728CF1BBDD79300F26014 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				007728D41BBDD79300F26014 /* ViewController.swift in Sources */,
+				007728F21BBDD7D700F26014 /* CanvasViewController.swift in Sources */,
 				007728D21BBDD79300F26014 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
